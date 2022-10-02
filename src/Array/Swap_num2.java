@@ -12,5 +12,7 @@ public class Swap_num2 {
         System.out.println(arr[0] + " " + other[0]);// 10 100
         Swap2(arr, other);
         System.out.println(arr[0] + " " + other[0]);
+
+        // it will not swap because we are Swaping address not index and we know that java is pass by value and  not pass by refrence
     }
 }
