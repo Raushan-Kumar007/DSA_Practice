@@ -13,5 +13,6 @@ public class Queues_impliment {
         q.EnQueue(-20);
         q.EnQueue(-30);
         q.display();
+        System.out.println(q.GetFront());
     }
 }
