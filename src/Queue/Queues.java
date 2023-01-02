@@ -2,8 +2,8 @@ package Queue;
 
 public class Queues {
     private int[] arr;
-    private int size;
-    private int front;
+    private int size; // this is for enqueue of an element
+    private int front; // this is for dequeue of an element
     public Queues(){
      this.arr=new int[5];
      this.size=0;
@@ -40,7 +40,7 @@ public class Queues {
      size--;
      return val;
     }
-    public int  GetFront(int item) throws Exception {
+    public int  GetFront() throws Exception {
         if(isEmpty()==true){
             throw new Exception("queue full hai");
         }
