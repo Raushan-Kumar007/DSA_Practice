@@ -1,9 +1,9 @@
 package Queue;
 
 public class Queues {
-    private int[] arr;
-    private int size; // this is for enqueue of an element
-    private int front; // this is for dequeue of an element
+    protected int[] arr;
+    protected int size; // this is for enqueue of an element
+    protected int front; // this is for dequeue of an element
     public Queues(){
      this.arr=new int[5];
      this.size=0;
