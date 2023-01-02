@@ -2,8 +2,8 @@ package Stack;
 import java.io.*;
 
 public class Stacks {
-    private int[] arr;
-    private int top;
+      protected int[] arr;
+      int top;
 
     public Stacks() {
         arr = new int[5];
